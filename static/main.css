@@ -1,0 +1,51 @@
+body{
+    background-image: url(http://ivsz.hu/wp-content/uploads/2015/07/codecool_-300x175.jpg);
+    background-size: cover;
+
+}
+
+.link{
+    text-decoration: none;
+    color: #333DFF;
+    display: block;
+    padding: 5px;
+    font-family: 'Times New Roman', Arial;
+}
+
+h1{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+.table{
+    font-family: arial, sans-serif;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

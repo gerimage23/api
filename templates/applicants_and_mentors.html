@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/main.css">
+    <title>Applicants and Mentors</title>
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <th>Applicant's First Name</th>
+            <th>Application Code</th>
+            <th>Assigned Mentor's First Name</th>
+            <th>Assigned Mentor's Last Name</th>
+        </tr>
+        {% for tuple in data_set %}
+        <tr>
+            {% for information in tuple %}
+                <td> {{ information }} </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
